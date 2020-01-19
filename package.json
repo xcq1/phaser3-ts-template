@@ -1,0 +1,24 @@
+{
+  "name": "phaser3-ts-template",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "author": "xcq1",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "terser-webpack-plugin": "^2.3.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "phaser": "^3.22.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack-prod.js",
+    "dev": "webpack-dev-server --config webpack-dev.js --open"
+  }
+}
